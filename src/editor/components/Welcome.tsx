@@ -6,11 +6,11 @@ import Game from './Game'
 
 export default function Welcome() {
   return (
-    <>
+    <main>
       <Scene></Scene>
+      <Game></Game>
       <Hierarchy></Hierarchy>
       <Project></Project>
-      <Game></Game>
-    </>
+    </main>
   )
 }

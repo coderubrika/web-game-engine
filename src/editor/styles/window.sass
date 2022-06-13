@@ -1,9 +1,14 @@
-@import colors
+@import colors, vars
 .window
   background-color: gray
+  margin-bottom: $gap
   header
     background-color: $header-hight
     color: $header-font
+    padding-left: $gap
   .content
     background-color: $content-hight
     color: $content-font
+    padding: $gap
+    *
+      font-size: 0.8rem
