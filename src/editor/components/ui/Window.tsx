@@ -1,12 +1,13 @@
 import React from 'react'
+import { WindowProps } from '../../types.t'
 
-export default function Window(props) {
+export default function Window({header, children}: WindowProps) {
 
   return (
-    <div className='window'>
-      <header>{props.header}</header>
+    <div className='window' id={header?.toLowerCase()}>
+      <header>{header}</header>
       <div className='content'>
-        {props.children}
+        {children}
       </div>
     </div>
   )
