@@ -1,5 +1,5 @@
 import React from 'react'
-import { WindowProps } from '../../types.t'
+import { WindowProps } from '../../types'
 
 export default function Window({header, children}: WindowProps) {
 
