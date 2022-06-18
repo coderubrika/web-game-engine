@@ -2,4 +2,4 @@ other
 node_modules
 .parcel-cache
 **/sandbox
-dist
+**/dist
